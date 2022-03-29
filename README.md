@@ -14,7 +14,7 @@ Este é um pequeno projeto de uma calculadora!!
 
 ### Links
 
-- Solution URL: [Solution here](https://ingridssilveira.github.io/calculadora/)
+- Solution URL: [Solution here](https://ingridssilveira.github.io/calculator/)
 
 ## Author
 

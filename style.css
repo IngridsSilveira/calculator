@@ -17,15 +17,17 @@ body {
     height: 100vh;
     background-color: black;
 }
-#titulo {
-  position: fixed;
-  top: 90px;
-}
+main {
+    display: flex; 
+    flex-direction: column;
+   }
 h1 {
     color: white;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 60px;
 }
 input {
     margin: 2px;
@@ -49,16 +51,19 @@ div#calculadora div {
     display: flex;
 }
 div#calculadora div input:nth-child(4) {
-    background-color: #c4c4c4;
+    background-color: #FF7433;
+    color: white;
 }
 div#quarta input:nth-child(1) {
-    background-color: springgreen;
+    background-color: rgb(241, 51, 51);
+    color: white;
 }
 div#quarta input:nth-child(1), div#calculadora {
     border-bottom-left-radius: 35px;
 }
 div#quarta input:nth-child(3) {
-    background-color: seagreen;
+    background-color: rgb(74, 74, 247);
+    color: white;
 }
 div#quarta input:nth-child(4), div#calculadora {
     border-bottom-right-radius: 35px;
@@ -70,10 +75,10 @@ input[type=button]:active {
     transform: scale(0.9);
 }
 footer {
-    position: fixed;
-    top: 500px;
     color: white;
     font-size: 13px;
+    margin-top: 20px;
+    margin-left: 100px;
 }
 a {
     color: white;
